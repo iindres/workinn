@@ -1,0 +1,28 @@
+.background {
+    background: rgb(20,1,25);
+    background: linear-gradient(0deg, rgba(20,1,25,1) 0%, rgba(91,14,78,1) 100%);
+    width: 516px;
+    height: 636px;
+    top: 196px;
+    left: 654.11px;
+    gap: 0px;
+    border-radius: 240px 240px 0px 0px;
+    box-shadow: 0px 4px 250px 0px #FFC93E40;
+}
+
+.background > .floating-pets {
+    position: relative;
+    height: 100%;
+}
+
+.pet-circle {
+    position: absolute;
+}
+
+.pet-circle:nth-child(1) { top: 19.27%; right: 0%; }
+.pet-circle:nth-child(2) { top: -8%; right: 65%; }
+.pet-circle:nth-child(3) { top: 25%; right: 85%; }
+.pet-circle:nth-child(4) { top: 0%; right: 20%; }
+.pet-circle:nth-child(5) { top: 15%; right: 0%; }
+.pet-circle:nth-child(6) { bottom: 15%; right: 95%; }
+

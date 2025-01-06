@@ -1,0 +1,58 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.welcome {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+}
+
+.hero-content p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    background: var(--linear-text-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--text-hover);
+    color: var(--linear-text-color);
+}
+
+.schedule {
+    background: transparent;
+    color: var(--text-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.schedule:hover {
+    color: var(--text-hover);
+}
